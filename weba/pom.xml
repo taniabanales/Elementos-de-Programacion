@@ -23,14 +23,28 @@
       <version>2.1</version>
       <scope>provided</scope>
     </dependency>
-    
     <dependency>
-	<groupId>javax.servlet.jsp.jstl</groupId>
-	<artifactId>jstl</artifactId>
-	<version>1.2</version>
+   <groupId>org.hibernate</groupId>
+   <artifactId>hibernate-core</artifactId>
+   <version>4.3.10.Final</version>
 </dependency>
-
+    <dependency>
+      <groupId>javax.servlet</groupId>
+      <artifactId>jstl</artifactId>
+      <version>1.2</version>
+    </dependency>
+    <dependency>
+      <groupId>org.hibernate</groupId>
+      <artifactId>hibernate-entitymanager</artifactId>
+      <version>4.3.1.Final</version>
+    </dependency>
+    <dependency>
+      <groupId>mysql</groupId>
+      <artifactId>mysql-connector-java</artifactId>
+      <version>5.1.35</version>
+    </dependency>
   </dependencies>
+  
 
   <build>
     <plugins>
