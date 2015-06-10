@@ -28,7 +28,7 @@ public class TestPojos {
         
         //creamos la transaccion
     Transaction tranza=sesion.beginTransaction();
-   /*
+   
     //hacer una transacccion
     Usuario u=new Usuario();
     u.setEmail("taniabanales@hotmail.com;");
@@ -38,7 +38,7 @@ public class TestPojos {
     sesion.save(u);
     tranza.commit();
     sesion.close();
-    */
+    
    
     /*Usuario u=new Usuario();
             u.setIdUsuario(1);
@@ -58,13 +58,13 @@ public class TestPojos {
             */
     
     //Buscar todos los usuarios de la bas de datos
-    
+   /* 
     List<Usuario> usuarios = sesion.createCriteria(Usuario.class).list();
             tranza.commit();
             sesion.close();
             for(Usuario u:usuarios){
        System.out.println("El usuario buscado tiene nombre:"+u.getNombre());
-    }
+    }*/
     }
     
 }
