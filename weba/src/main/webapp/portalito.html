@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="windows-1252">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="js/libs/jquery/jquery.js"></script>
+        <style>
+            #primero{
+                width:320px;
+                height:440px;
+                background-color: purple;
+                color:white;
+                text-align: center;
+                padding-top: 10px;
+                margin:0 auto;
+                cursor:pointer;
+                border-radius:7px;
+            }
+            #primero:hover{
+                background-color: #285e8e;
+                color:black;
+            }
+        </style>
+        <script>
+            $(document).ready(function(){
+               /*
+                * Vamos a programar nuestro supuesto botón
+                */ 
+               $("#primero").click(function(){
+                  $("#resultado").html("haz oprimido el botón"); 
+               });
+            });
+        </script>
+        
+    </head>
+    <body>
+        <div id="primero">Probando Jquery, esto es un boton</div>
+        <div id="resultado"></div>
+    </body>
+</html>
