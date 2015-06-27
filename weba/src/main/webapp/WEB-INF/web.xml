@@ -17,6 +17,10 @@
         <servlet-name>ServletHola2</servlet-name>
         <servlet-class>com.unitec.weba.ServletHola2</servlet-class>
     </servlet>
+    <servlet>
+        <servlet-name>ServletBuscarTodosUsuarios</servlet-name>
+        <servlet-class>com.unitec.weba.ServletBuscarTodosUsuarios</servlet-class>
+    </servlet>
     <servlet-mapping>
         <servlet-name>ServletAutenticar</servlet-name>
         <url-pattern>/autenticar</url-pattern>
@@ -28,6 +32,10 @@
     <servlet-mapping>
         <servlet-name>ServletHola2</servlet-name>
         <url-pattern>/hola2</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ServletBuscarTodosUsuarios</servlet-name>
+        <url-pattern>/usuarios</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>
